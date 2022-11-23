@@ -1,4 +1,4 @@
-package com.bob.aqs;
+package com.bob.aqs.monopolize;
 
 import java.util.concurrent.locks.ReentrantLock;
 
