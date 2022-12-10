@@ -15,14 +15,10 @@ public class HashMapVerify {
 		Map<String, String> map = new HashMap<>(10);
 		map.put("1", "1");
 		map.get("1");
-		System.out.print("23 & 8 = ");
-		System.out.println((23 & 8));
-		System.out.print("7 & 8 = ");
-		System.out.println((7 & 8));
-		System.out.print("15 & 8 =");
-		System.out.println(15 & 8);
-		System.out.print("31 & 8 = ");
-		System.out.println(31 & 8);
+		System.out.println("23 & 8 = " + (23 & 8));
+		System.out.println("7 & 8 = " + (7 & 8));
+		System.out.println("15 & 8 =" + (15 & 8));
+		System.out.println("31 & 8 = "+(31 & 8));
 
 
 		System.out.println("20 & 7 =" + (20 & 7 ));
